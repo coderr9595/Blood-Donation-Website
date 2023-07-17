@@ -1,0 +1,69 @@
+
+body{
+    background-image: url("homepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+nav{
+    background-color: grey;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style-type: none;
+   margin: 0;
+   padding: 0;
+   
+   }
+nav ul li{
+    display: inline;
+
+}
+.box1{
+    box-sizing: border-box;
+  width: 40%;
+  border: 5px ;
+  float: left;
+
+}
+.container{
+    box-sizing: border-box;
+    width: 60%;
+    
+    float: right;
+}
+.swiper{
+    width: 60%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 70%;
+}
+.box2{
+    box-sizing: border-box;
+    width: 100%;
+    border: 3px solid brown;
+    float: left;
+  
+
+}
+.box3{
+    box-sizing: border-box;
+    width: 100%;
+    border: 10px ;
+    float: left;
+}
+.box4{
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px ;
+    float: left;  
+}
+.box5{
+    box-sizing: border-box;
+    width: 20%;
+    border: 1px;
+    float: left;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>feedback form</title>
+        <style>
+            body{
+                background-color: skyblue;
+            }
+            .box{
+                
+                   box-sizing: border-box;
+                 width: 100%;  
+                 text-align: center;
+
+
+            }
+            
+        </style>
+        <header>
+            <h1 align="center"><span>Feedback</span><span> </span><span>Form</span></h1>
+            <h2><a href="file:///C:/Users/heart/OneDrive/Desktop/html/Blood%20donation%20project/blood%20donation.html">Home</a></h2>
+        </header>
+        <script>
+            function displaySelected()
+            {
+                alert("Thanks For Giving Feedback"+"\n"+"Have A Nice Day");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="box">
+        <form action="" method="POST" >
+            Your name: <br>
+                <input type="text" name="realname"><br>
+                <br>
+                
+                Your email: <br>
+                <input type="text" name="email"><br>
+                <br>
+                
+                Your comments: <br>
+                <textarea name="comments" rows="15" cols="50"></textarea><br>
+                <br>
+        
+            <input type="submit" onclick="displaySelected()" value="Submit">
+            <input type="reset" value="Clear">
+        </form>
+        </div>
+    </body>
+</html>
