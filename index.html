@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BLOOD DONATION </title>
+        <link rel="stylesheet" href="blood donation.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+       <header>
+           
+           <h1 align = "center"><span><img src="bloodlogo.png" img width="100px"  >   </span><span style="color: burlywood;">BLOOD</span>-<span style="color: brown;">QUEST</span></h1>
+           <h2 align = "center"><i>A social Intiative</i></h2>
+       </header>
+       <form name="loginform" method="post">
+       <h3 align = "right">
+        <label>Username :</label>
+       <input type="text" placeholder="Enter Username" size="25" name="userid" required>
+        <label>Password : </label>
+         <input type="password" placeholder="Enter Password" size="25" name="pwd" required>
+        <button type="submit" onclick="check(this.form)" value="Login">Login</button>
+       </h3>
+    </form>
+       <script language="javascript">
+        function check(form)
+        {
+        
+        if(form.userid.value == "piyushkr" && form.pwd.value == "2222")
+        {
+            
+            window.open("file:///C:/Users/heart/OneDrive/Desktop/html/Blood%20donation%20project/login.html");
+        }
+        else if(form.userid.value == "ayaankr" && form.pwd.value == "3333")
+        {
+          window.open("file:///C:/Users/heart/OneDrive/Desktop/html/Blood%20donation%20project/login.html");
+        }
+        else
+        {
+            alert("Error Password or Username")
+            return false;
+        }
+        }
+        </script>
+       <meta charset="utf-8">
+       <script>
+        var stateObject = {
+"Andhra Pradesh": { "Visakhapatnam": ["Aganampudi", "Aganampudi","Aganampudi","Sujatha Nagar","Simhachalam"],
+"Vijayawada": ["Ajith singh nagar", "Bhavanipuram","Buckinghampet","Kamakotinagar"],
+"Guntur": ["Anantavarapadu", "chandra mouli nagar","Kanna vari thota","Lakshmipuram"],
+"Tirupati": ["Mangalam","Gollapalle","Vedanthapura Agraharam","Chandragiri"]
+},
+"Bihar": {
+"Patna": ["Anishabd", "Danapur","Phulwarisrif","Patna city"],
+"Gaya": ["Gaya Sadar", "Belaganj","Bodh Gaya","Fatehpur"],
+"Biharsharif": ["Nalanda", "Alahdia Sarai","Bariarpur","	Bhojpur"],
+"Bhagalpur": ["Kahalgaon", "Narayanpur","Sanhaula","Ismailpur"]
+
+}, 
+"Gujarat": {
+"Ahmedabad": ["Bhadra", "Sabarmati","Aslali","Chandkheda"],
+"Gandhinagar": ["Bsf Gandhinagar", "Chandrala","Dabhoda","Kasturinagar"],
+"Surat": ["Bardoli", "Laskana","Piplod","Punagam"],
+"Vadodara": ["Chhani Jakat Naka", "Hari Nagar","Saiyed Vasna","Fatehgunj"]
+},
+"Haryana": {
+"Faridabad": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Gurgaon": ["Sohna", "	Farrukhnagar","Pataudi","Manesar"],
+"Sonipat": ["Gohana", "	Ganaur","Kharkhoda","Sonipat"],
+"Panipat": ["Chandigarh", "	Panipat","Samalkha","	Israna"]
+},
+"Jharkhand": {
+"Bokaro Steel City": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Jamshedpur":  ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Hazaribagh":   ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+" Dhanbad":  ["Alampur", "Badarpur Said","Chirsi","Dungarpur"]
+},
+"Kerala": {
+"Kochi": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+" Kozhikode":["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Thrissur":["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Malappuram":["Alampur", "Badarpur Said","Chirsi","Dungarpur"]
+},
+"Maharashtra": {
+"Pune": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+" Nagpur": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Aurangabad": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Solapur": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"]
+
+},
+"Punjab": {
+"Amritsar": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Jalandhar": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Ludhiana": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Kapurthala": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"]
+},
+
+"Rajasthan": {
+"Bikaner": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Jaisalmer": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Jodhpur": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+" Ajmer": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"]
+},
+"Sikkim": {
+"Namchi": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+" Gyalshing": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Mangan": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Rabdentse": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"]
+},
+"Tamil Nadu": {
+  "Tiruchirappalli": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Madurai": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Vellore": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Coimbatore": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"]
+},
+"Telangana": {
+"Warangal": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Nizamabad": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+" Karimnagar": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Khammam": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+},
+"Uttar Pradesh": {
+"Noida": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Varanasi": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Allahabad": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Kanpur": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"]
+},
+"West Bengal": {
+"Darjeeling": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Siliguri": ["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Howrah":["Alampur", "Badarpur Said","Chirsi","Dungarpur"],
+"Durgapur":["Alampur", "Badarpur Said","Chirsi","Dungarpur"]
+}
+}
+window.onload = function () {
+var stateSel = document.getElementById("stateSel"),
+citySel = document.getElementById("citySel"),
+areaSel = document.getElementById("areaSel");
+for (var state in stateObject) {
+stateSel.options[stateSel.options.length] = new Option(state, state);
+}
+stateSel.onchange = function () {
+citySel.length = 1; 
+areaSel.length = 1; 
+if (this.selectedIndex < 1) return; 
+for (var city in stateObject[this.value]) {
+citySel.options[citySel.options.length] = new Option(city, city);
+}
+}
+stateSel.onchange(); 
+citySel.onchange = function () {
+areaSel.length = 1; 
+if (this.selectedIndex < 1) return; 
+var area = stateObject[stateSel.value][this.value];
+for (var i = 0; i < area.length; i++) {
+areaSel.options[areaSel.options.length] = new Option(area[i], area[i]);
+}
+}
+}
+
+        </script>
+    </head>
+    <body >
+    <header>
+        <nav>
+            <ul>
+              <h2>
+               <li><a href="file:///C:/Users/heart/OneDrive/Desktop/html/Blood%20donation%20project/register.html"><b>Register</b></a></li>
+               <li style="padding-left: 15px;"><a href="file:///C:/Users/heart/OneDrive/Desktop/html/Blood%20donation%20project/whydonateblood.html"><b>Why Donate Blood</b></a></li>
+                <li style="padding-left: 15px;"><a href="file:///C:/Users/heart/OneDrive/Desktop/html/Blood%20donation%20project/whocangiveablood.html"><b>Who Can Give Blood</b></a></li>
+                <li style="padding-left: 15px;"><a href="file:///C:/Users/heart/OneDrive/Desktop/html/Blood%20donation%20project/referafriend.html"><b>Refer A Friend</b></a></li>
+                
+            </h2>  
+            </ul>
+        </nav>
+    </header>
+    <div class="box1">
+        <h2 align = "center" ><b>Find A Donor</b></h2>
+       <h3>
+        <form name="myform" id="myForm">
+            Select State: <select name="state" id="stateSel" size="1">
+            <option value="" selected="selected">Select State</option>
+            </select>
+            <br>
+            <br>
+            Select City: <select name="city" id="citySel" size="1">
+            <option value="" selected="selected">Please select state first</option>
+            </select>
+            <br>
+            <br>
+            Select Area: <select name="area" id="areaSel" size="1">
+            <option value="" selected="selected">Please select city first</option>
+            </select>
+            <br>
+            <br>
+            Select blood Group: <select name="" id="" size="1">
+              <option value="" selected="selected">Select Your Blood Group</option>
+              <option>A+</option>  
+              <option>A-</option> 
+              <option>B+</option>
+              <option>B-</option>
+              <option>O+</option>
+              <option>O-</option>
+              <option>AB+</option>
+              <option>AB-</option>      
+            </select><br>
+            <a href="file:///C:/Users/heart/OneDrive/Desktop/html/Blood%20donation%20project/information.html">
+              <input type="button" value="Search" />
+           </a>
+           
+            </form>
+       </h3>  
+      </div>
+      <div class="container">
+        <div class="swiper">
+           
+            <div class="swiper-wrapper">
+              
+              <div class="swiper-slide"><img src="img1.jpg"></div>
+              <div class="swiper-slide"><img src="img2.jpg"></div>
+              <div class="swiper-slide"><img src="img3.jpg"></div>
+              <div class="swiper-slide"><img src="img4.jpg"></div>
+            </div>
+            
+            <div class="swiper-pagination"></div>
+          
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            
+            <div class="swiper-scrollbar"></div>
+          </div>
+      </div>
+      <div class="box2">
+       <h2 align="left">Donation Process</h2>
+       <header>
+         
+           <ol>
+             <li><h3>Registration(10 Mins) :</h3><h4>Donor fills up the registration form and gives his consent for donation.</h4>      </li>
+                          
+             <li><h3>Medical Check up(5 Mins) :</h3><h4>Donors Medical History & life style is asked, check up of temperature, blood pressure, pulse and haemoglobin.</h4></li>
+             <li><h3>Donation (8 Mins) :</h3><h4>Phlebotomist draws unit (350ml/450ml) of blood. A new sterile meedle is used to draw each unit and the needle is destroyed after it has been used. It taked less than 10 min.</h4></li>
+             <li><h3>Refreshment (10 Mins) :</h3><h4>Enjoy Snacks and drinks juice to replenish fluids.</h4></li>
+           </ol>
+        
+       </header>
+      </div>
+      <div class="box3">
+        <h2 align="left">Where Would You Like To Donate?</h2>
+        <form role="search" id="form">
+          <input type="search" id="query" name="q" size="80%" placeholder="Search..." aria-label="Search through site content">
+          <button>
+            <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+           S</button>
+        </form>
+      </div>
+      <div class="box5">
+      <a href="file:///C:/Users/heart/OneDrive/Desktop/html/Blood%20donation%20project/feedback.html"><h2>Give Feedback +</h2></a>
+      </div>
+       <div class="box4">
+         <h2 align="center">Contact Us</h2>
+         <h3 align="center">NAME : Piyush Kumar</h3>
+         <h3 align="center">E-mail : piyushkumarpk2130@gmail.com</h3>
+         <h3 align="center">Phone No. : 7739655582</h3>
+         <h3 align="center">Address : Ballmichak Anishabad Patna Bihar Pin code-800002</h3>
+
+       </div>
+      <script>
+        const f = document.getElementById('form');
+        const q = document.getElementById('query');
+        const google = 'https://www.google.com/search?q=site%3A+';
+       
+  
+        function submitted(event) {
+          event.preventDefault();
+          const url = google +  '+' + q.value;
+          const win = window.open(url, '_blank');
+          win.focus();
+        }
+  
+        f.addEventListener('submit', submitted);
+      </script>
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script>
+          const swiper = new Swiper('.swiper', {
+  
+       autoplay: {
+           delay: 3000,
+           disableonInteraction: false,
+       },
+  loop: true,
+
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+      </script>
+    </body>
+</html>
